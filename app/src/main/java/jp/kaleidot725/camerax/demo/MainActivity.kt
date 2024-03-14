@@ -42,7 +42,7 @@ class MainActivity : ComponentActivity() {
                     Mode.Preview -> {
                         PreviewScreen(
                             onClose = { mode = Mode.Home },
-                            modifier = Modifier.padding(8.dp)
+                            modifier = Modifier.fillMaxSize().padding(8.dp)
                         )
                     }
                 }
